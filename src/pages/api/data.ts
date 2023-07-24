@@ -97,4 +97,9 @@ export const config = {
       flag: "/assets/us.png",
     },
   ],
+  navItems: [
+    { label: "Add restaurant", action: () => {} },
+    { label: "Log in", action: () => {} },
+    { label: "Sign up", action: () => {} },
+  ],
 };
