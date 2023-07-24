@@ -1,18 +1,20 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import { Navbar } from "@/components/Navbar";
+import { PopularStaticText } from "@/components/PopularStaticText";
+import { Locations } from "@/components/Locations";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between ${inter.className}`}>
-      <div className="w-full relative flex flex-col items-center justify-center h-[570px]">
+      className={`flex min-h-screen flex-col items-center gap-10 pb-10 ${inter.className}`}>
+      <div className="w-full text-white relative flex flex-col items-center justify-center h-[570px]">
         <Image
           width={1600}
           height={100}
-          className={`w-full absolute z-0 h-full`}
+          className={`w-full absolute z-0 h-full bg-repeat object-cover`}
           src={"/assets/landing-page-banner.png"}
           alt={""}
         />
@@ -31,6 +33,9 @@ export default function Home() {
           </span>
         </div>
       </div>
+      <PopularStaticText />
+      <Locations />
+      <div></div>
     </main>
   );
 }

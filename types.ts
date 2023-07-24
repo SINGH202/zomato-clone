@@ -7,3 +7,8 @@ export type PopupEncloserProps = {
   show: boolean;
   close: (Option: boolean) => void;
 };
+
+export type LocationCardProps = {
+  label: string;
+  redirectLink: string;
+};
