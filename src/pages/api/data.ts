@@ -3,98 +3,122 @@ export const config = {
     {
       name: "India",
       flag: "/assets/in.png",
+      redirectLine: "",
     },
     {
       name: "Australia",
       flag: "/assets/au.png",
+      redirectLine: "",
     },
     {
       name: "Brasil",
       flag: "/assets/br.png",
+      redirectLine: "",
     },
     {
       name: "Canada",
       flag: "/assets/ca.png",
+      redirectLine: "",
     },
     {
       name: "Chile",
       flag: "/assets/cl.png",
+      redirectLine: "",
     },
     {
       name: "Czech Republic",
       flag: "/assets/cz.png",
+      redirectLine: "",
     },
     {
       name: "Indonesia",
       flag: "/assets/id.png",
+      redirectLine: "",
     },
     {
       name: "Ireland",
       flag: "/assets/ie.png",
+      redirectLine: "",
     },
     {
       name: "Italy",
       flag: "/assets/it.png",
+      redirectLine: "",
     },
     {
       name: "Lebanon",
       flag: "/assets/lb.png",
+      redirectLine: "",
     },
     {
       name: "Malaysia",
       flag: "/assets/my.png",
+      redirectLine: "",
     },
     {
       name: "New Zealand",
       flag: "/assets/nz.png",
+      redirectLine: "",
     },
     {
       name: "Philippines",
       flag: "/assets/ph.png",
+      redirectLine: "",
     },
     {
       name: "Poland",
       flag: "/assets/pl.png",
+      redirectLine: "",
     },
     {
       name: "Portugal",
       flag: "/assets/pt.png",
+      redirectLine: "",
     },
     {
       name: "Qatar",
       flag: "/assets/qa.png",
+      redirectLine: "",
     },
     {
       name: "Singapore",
       flag: "/assets/sg.png",
+      redirectLine: "",
     },
     {
       name: "Slovakia",
       flag: "/assets/sk.png",
+      redirectLine: "",
     },
     {
       name: "South Africa",
       flag: "/assets/za.png",
+      redirectLine: "",
     },
     {
       name: "Sri Lanka",
       flag: "/assets/lk.png",
+      redirectLine: "",
     },
     {
       name: "Turkey",
       flag: "/assets/tr.png",
+      redirectLine: "",
     },
     {
       name: "UAE",
       flag: "/assets/ae.png",
+      redirectLine: "",
     },
     {
       name: "United Kingdom",
       flag: "/assets/gb.png",
+      redirectLine: "",
     },
     {
       name: "United States",
       flag: "/assets/us.png",
+      redirectLine: "",
     },
   ],
   indiaRestaurants: [

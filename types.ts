@@ -12,3 +12,9 @@ export type LocationCardProps = {
   label: string;
   redirectLink: string;
 };
+
+export type CountryCardProps = {
+  label: string;
+  flag: string
+  redirectLink: string;
+};

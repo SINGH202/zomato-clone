@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Navbar } from "@/components/Navbar";
 import { PopularStaticText } from "@/components/PopularStaticText";
 import { Locations } from "@/components/Locations";
+import { Countries } from "@/components/Countries";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,7 +36,8 @@ export default function Home() {
       </div>
       <PopularStaticText />
       <Locations />
-      <div></div>
+      <Countries />
+      <div className=""></div>
     </main>
   );
 }
