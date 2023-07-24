@@ -2,6 +2,7 @@ import { config } from "@/pages/api/data";
 import { NavItemProps } from "../../types";
 import { useState } from "react";
 import { PopupEncloser } from "./PopupEncloser";
+import { useRouter } from "next/router";
 
 export const NavItem = ({ label, action }: NavItemProps) => {
   return (
@@ -14,9 +15,15 @@ export const NavItem = ({ label, action }: NavItemProps) => {
 export const NavItems = () => {
   const [isLoginFormOpen, setIsLoginFormOpen] = useState(false);
   const [isSignUpFormOpen, setIsSignUpFormOpen] = useState(false);
+  const router = useRouter();
   return (
     <div className="flex gap-2 items-center">
-      <NavItem label={"Add restaurant"} action={() => {}} />
+      <NavItem
+        label={"Add restaurant"}
+        action={() => {
+          router.push("/");
+        }}
+      />
       <NavItem
         label={"Log in"}
         action={() => {
