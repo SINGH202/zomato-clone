@@ -3,7 +3,7 @@ import Image from "next/image";
 export const PopularStaticText = () => {
   return (
     <div className="flex flex-col gap-5 px-5 items-center justify-center w-full">
-      <span className="flex gap-4 text-[#1c1c1c] text-4xl">
+      <span className="flex flex-wrap gap-4 text-[#1c1c1c] text-4xl">
         Popular locations in
         <Image
           width={50}

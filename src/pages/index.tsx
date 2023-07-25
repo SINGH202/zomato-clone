@@ -4,13 +4,14 @@ import { Navbar } from "@/components/Navbar";
 import { PopularStaticText } from "@/components/PopularStaticText";
 import { Locations } from "@/components/Locations";
 import { Countries } from "@/components/Countries";
+import { Footer } from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center gap-10 pb-10 ${inter.className}`}>
+      className={`flex min-h-screen flex-col items-center gap-10 ${inter.className}`}>
       <div className="w-full text-white relative flex flex-col items-center justify-center h-[570px]">
         <Image
           width={1600}
@@ -38,6 +39,7 @@ export default function Home() {
       <Locations />
       <Countries />
       <div className=""></div>
+      <Footer />
     </main>
   );
 }

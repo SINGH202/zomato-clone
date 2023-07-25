@@ -7,7 +7,7 @@ export const Countries = () => {
   return (
     <div className="flex flex-col gap-5 max-w-6xl px-5">
       <span className="text-4xl">All Countries</span>
-      <div className="flex flex-wrap justify-center gap-y-9 gap-x-5 text-[#1c1c1c] text-xl">
+      <div className="flex flex-wrap justify-center lg:justify-between gap-y-9 gap-x-5 text-[#1c1c1c] text-xl">
         {config.countries.map((countryData, index) => (
           <CountryCard
             key={`indian-restaurant-${index}`}

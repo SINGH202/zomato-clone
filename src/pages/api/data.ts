@@ -208,5 +208,72 @@ export const config = {
     { label: "Vijayawada Restaurants", redirectLink: "" },
     { label: "Visakhapatnam Restaurants", redirectLink: "" },
   ],
+  rightsText:
+    "By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.",
+  footerOptions: [
+    {
+      title: "ABOUT ZOMATO",
+      options: [
+        { label: "Who We Are", link: "" },
+        { label: "Blog", link: "" },
+        { label: "Work With Us", link: "" },
+        { label: "Investor Relations", link: "" },
+        { label: "Report Fraud", link: "" },
+        { label: "Contact Us", link: "" },
+      ],
+    },
+    {
+      title: "ZOMAVERSE",
+      options: [
+        { label: "Zomato", link: "" },
+        { label: "Blinkit", link: "" },
+        { label: "Feeding India", link: "" },
+        { label: "Hyperpure", link: "" },
+        { label: "Zomaland", link: "" },
+      ],
+    },
+    {
+      title: "FOR RESTAURANTS",
+      options: [
+        { label: "Partner With Us", link: "" },
+        { label: "Apps For You", link: "" },
+      ],
+    },
+    {
+      title: "FOR ENTERPRISES",
+      options: [{ label: "Zomato For Enterprise ", link: "" }],
+    },
+    {
+      title: "LEARN MORE",
+      options: [
+        { label: "Privacy", link: "" },
+        { label: "Security", link: "" },
+        { label: "Terms", link: "" },
+        { label: "Sitemap", link: "" },
+      ],
+    },
+  ],
+  footerSocials: [
+    {
+      icon: "/assets/linkedin-icon.svg",
+      link: "https://www.linkedin.com/company/zomato/?originalSubdomain=in",
+    },
+    {
+      icon: "/assets/insta-icon.svg",
+      link: "https://www.instagram.com/zomato/",
+    },
+    {
+      icon: "/assets/twitter-icon.svg",
+      link: "https://twitter.com/zomato",
+    },
+    {
+      icon: "/assets/youtube-icon.svg",
+      link: "https://www.youtube.com/zomato",
+    },
+    {
+      icon: "/assets/facebook-icon.svg",
+      link: "https://www.facebook.com/zomato",
+    },
+  ],
 };
 // 89
