@@ -15,6 +15,11 @@ export type LocationCardProps = {
 
 export type CountryCardProps = {
   label: string;
-  flag: string
+  flag: string;
   redirectLink: string;
+};
+
+export type FooterHoverMenuProps = {
+  label: string;
+  flag: string;
 };

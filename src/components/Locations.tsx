@@ -5,7 +5,7 @@ import { config } from "@/pages/api/data";
 
 export const Locations = () => {
   return (
-    <div className="flex flex-wrap justify-center max-w-6xl px-5 gap-y-9 gap-x-5 text-[#1c1c1c] text-xl">
+    <div className="flex flex-wrap justify-center lg:justify-between max-w-6xl px-5 gap-y-9 gap-x-5 text-[#1c1c1c] text-xl">
       {config.indiaRestaurants.map((restaurant, index) => (
         <LocationCard
           key={`indian-restaurant-${index}`}
