@@ -23,3 +23,23 @@ export type FooterHoverMenuProps = {
   label: string;
   flag: string;
 };
+
+export type FooterOptionProps = {
+  label: string;
+  link: string;
+};
+
+export type FooterOptionsProps = {
+  title: string;
+  options: FooterOptionProps[];
+};
+
+export type FooterSocialsProps = {
+  title: string;
+  socials: FooterSocialProps[];
+};
+
+export type FooterSocialProps = {
+  icon: string;
+  link: string;
+};

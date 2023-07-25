@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { FooterHoverMenu } from "./FooterHoverMenu";
 import { config } from "@/pages/api/data";
+import { FooterOptions } from "./FooterOption";
+import { FooterOptionProps } from "../../types";
+import { FooterSocials } from "./FooterSocials";
 
 export const Footer = () => {
   return (
@@ -18,7 +21,19 @@ export const Footer = () => {
             <FooterHoverMenu label={"English"} flag={"/assets/glob-icon.svg"} />
           </div>
         </div>
-        <div></div>
+        <div className="flex sm:flex-col flex-wrap sm:h-60 pt-5 items-start gap-5 w-full">
+          {config?.footerOptions.map((footerOptionList, index) => (
+            <FooterOptions
+              key={`footer-list-option-${footerOptionList?.title}-${index}`}
+              {...footerOptionList}
+            />
+          ))}
+
+          <FooterSocials
+            title={"SOCIAL LINKS"}
+            socials={config?.footerSocials}
+          />
+        </div>
         <div className="border border-t-[#696969] w-full"></div>
         <span className="text-sm text-[#4f4f4f]">{config?.rightsText}</span>
       </div>
